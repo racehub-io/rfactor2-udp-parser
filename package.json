@@ -1,0 +1,24 @@
+{
+  "name": "@racehub-io/rfactor2-udp-parser",
+  "version": "0.1.11",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "pbjs -t static-module -w commonjs -o compiled.js telemetry.proto",
+    "prepublishOnly": "npm run gen",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/racehub-io/rfactor2-udp-parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/racehub-io/rfactor2-udp-parser/issues"
+  },
+  "homepage": "https://github.com/racehub-io/rfactor2-udp-parser#readme",
+  "dependencies": {
+    "protobufjs": "~6.9.0"
+  }
+}
